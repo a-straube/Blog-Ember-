@@ -1,5 +1,5 @@
 Blog.RecentCommentsRoute = Ember.Route.extend({
 	model: function() {
-		return comments;
+		return this.store.find('comment');
 	}
 });
