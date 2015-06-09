@@ -3,13 +3,19 @@
 <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	
 	<script src="libs/jquery-1.11.3.js"></script>
 	<script src="libs/ember-template-compiler.js"></script>
 	<script src="libs/ember.debug.js"></script>
-	<script src="scripts.js"></script>
-	<title></title>
+	<script src="libs/ember-handlebars-loader-0.0.2.js"></script>
+	
+	<script src="blog.js"></script>
+	<script src="router.js"></script>
+
+	<script>EmberHandlebarsLoader.loadTemplates(['posts', 'about', 'contact', 'phone', 'email', 'application']);</script>
+	<title>Blog</title>
 </head>
 <body>
-	<h4>test</h4>
+
 </body>
 </html>
