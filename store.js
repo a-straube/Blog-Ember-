@@ -3,6 +3,11 @@ var posts = [
 		id: '1',
 		title: "Title",
 		body: "Insert text here."
+	},
+	{
+		id: '2',
+		title: "A",
+		body: "Insert text here."
 	}
 ];
 
